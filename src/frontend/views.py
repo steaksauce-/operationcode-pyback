@@ -50,8 +50,8 @@ def get_logo_and_users(logo: InMemoryUploadedFile, url_root: str) -> Tuple[str, 
         users = '@wimo7083 @AllenAnthes,'
         logo_url = f'https://pyback.ngrok.io/static/media/logos/{school_logo}'
     else:
-        # users = '@hpjaj @wimo7083 @jhampton @kylemh @davidmolina @nellshamrell @hollomancer @maggi-oc'
-        users = ''
+        users = '@wimo7083 ,@jhampton ,@kylemh'
+        # users = ''
         logo_url = f'{url_root}static/logos/{school_logo}'
     return logo_url, users
 
